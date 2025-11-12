@@ -1,0 +1,8 @@
+[
+  {
+    "name": "demo-server",
+    "host": "example.com",
+    "user": "ubuntu",
+    "port": 22
+  }
+]

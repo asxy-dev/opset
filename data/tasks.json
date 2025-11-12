@@ -1,0 +1,8 @@
+[
+  {
+    "name": "uptime",
+    "command": "uptime",
+    "targets": ["demo-server"],
+    "cron": "@hourly"
+  }
+]
