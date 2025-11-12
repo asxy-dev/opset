@@ -21,7 +21,7 @@ func main(){
 	}
 	cmd := os.Args[1] //get the first argument 
 	switch cmd {
-		case "list-dervers":
+		case "list-servers":
 			listServers() //call list server function
 		case "list-tasks":
 			listTasks() //call lsit task function
