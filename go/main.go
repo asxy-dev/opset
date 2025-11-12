@@ -40,7 +40,7 @@ var servers []Server //create slice to hold servers
 	json.Unmarshal(data, &servers)
 	fmt.Println("Servers:") 
 	for _, server := range servers {
-	fmt.Println("- %s (%s)/n", s.Name, s.Host) //print server details
+	fmt.Println("- %s (%s)/n", server.Name, server.Host) //print server details
 	}
 }
 func listTasks() {	
